@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<style>
+	 .carousel .item {
+    width: 100%; /*slider width*/
+    max-height: 600px; /*slider height*/
+}
+.carousel .item img {
+    width: 100%; /*img width*/
+}
+/*add some makeup*/
+.carousel .carousel-control {
+    background: none;
+    border: none;
+    top: 50%;
+}
+/*full width container*/
+@media (max-width: 767px) {
+    .block {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+}
+	</style>
+	<meta charset="utf-8">
+	<title>Training Portal</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<!-- Le styles -->
+	<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+	<link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+	<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<meta charset="utf-8">
+    <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="description" content="Metro UI CSS">
+    <meta name="author" content="Sergey Pimenov">
+    <meta name="keywords" content="windows 8, modern style, Metro UI, style, modern, css, framework">
+
+    <link href="metroui/public/css/modern.css" rel="stylesheet">
+    <link href="metroui/public/css/modern-responsive.css" rel="stylesheet">
+    <link href="metroui/public/css/site.css" rel="stylesheet" type="text/css">
+    <link href="metroui/public/js/google-code-prettify/prettify.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" src="metroui/public/js/assets/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="metroui/public/js/assets/jquery.mousewheel.min.js"></script>
+    <script type="text/javascript" src="metroui/public/js/assets/moment.js"></script>
+    <script type="text/javascript" src="metroui/public/js/assets/moment_langs.js"></script>
+
+    <script type="text/javascript" src="metroui/public/js/modern/dropdown.js"></script>
+    <script type="text/javascript" src="metroui/public/js/modern/accordion.js"></script>
+    <script type="text/javascript" src="metroui/public/js/modern/buttonset.js"></script>
+    <script type="text/javascript" src="metroui/public/js/modern/carousel.js"></script>
+    <script type="text/javascript" src="metroui/public/js/modern/input-control.js"></script>
+    <script type="text/javascript" src="metroui/public/js/modern/pagecontrol.js"></script>
+    <script type="text/javascript" src="metroui/public/js/modern/rating.js"></script>
+    <script type="text/javascript" src="metroui/public/js/modern/slider.js"></script>
+    <script type="text/javascript" src="metroui/public/js/modern/tile-slider.js"></script>
+    <script type="text/javascript" src="metroui/public/js/modern/tile-drag.js"></script>
+    <script type="text/javascript" src="metroui/public/js/modern/calendar.js"></script>
+
+
+	<script type="text/javascript">window.history.forward();function noBack(){window.history.forward();}</script>
+	
+</head>
+<body class = "metrouicss"onload="noBack();prettyprint();" onpageshow="if (event.persisted) noBack();" onunload="">
+<div id="header-text">
+  <h1><strong id="top-title" align="center">Training Portal</strong></h1>
+    <p id="slogan" align="left">Be a quick Learner</p>
+</div>  
+    <div class="navbar navbar-inverse">
+		<div class="navbar-inner">
+			<div class="container">
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+				<div class="nav-collapse" id=menu>
+					<ul class="nav">
+                                                
+						<li class="active"><a href="member_view.html">Home</a></li>
+                        <li><a href="readnotes.php">Read</a></li>
+                        <li><a href="add_notes.php">Add Notes</a></li>
+						<li><a href="contactus.html">contact us</a></li>
+   
+                                        </ul>
+					<ul class="nav pull-right">
+						<p><a href="logout.php" class="btn btn-success">log out</a></p> 
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div>
+		</div>
+	</div>
+    <div class="page secondary">
+        <div class="page-header">
+            <div class="page-header-content">
+                <h1>Your Reference Section<small>Books</small></h1>
+            </div>
+        </div>
+
+        <div class="page-region">
+            <div class="page-region-content">
+                <div class="grid">
+                    <div class="row">
+                        <div class="span10">
+                  			<div class="grid">
+                                <div class="clearfix">
+                            		<div class="tile double bg-color-blue" data-role="tile-slider">
+                                    <div class="tile-content">
+                                        <h2>C Programming Languege</h2>
+                                        <h5>Basic Programming Languege</h5>
+                                        <p>
+                                            Reference Book:
+                                            The C Programming Language 
+                                            by Brian W. Kernighan, Dennis M. Ritchie
+                                        </p>
+                                    </div>
+                                    <div class="tile-content">
+                                        <a href="C.pdf" target="_blank">
+ 											<img src="images/Ritchie.jpg" />
+										</a>
+                                    </div>
+                                    <div class="tile-content">
+                                    <div class="tile-content">
+                                        <h2>C Programming Languege</h2>
+                                        <h5>Remember Pointers...?</h5>
+                                        <p>
+                                            C Programming: A Modern Approach 
+                                            by K.N. King..
+                                        </p>
+                                    </div>
+                                    </div>
+                                    <div class="tile-content">
+                                        <a href="C-King.pdf" target="_blank">
+ 											<img src="images/King.jpg" />
+										</a>
+                                    </div>
+                                	</div>
+
+                                <div class="tile double bg-color-red" data-role="tile-slider" data-param-direction="left" data-param-period="3000">
+                                    <div class="tile-content">
+                                        <h2>Data Structures and Algoritms</h2>
+                                        <h5>either on C or OOP</h5>
+                                        <p>
+                                        	Reference Book:
+                                            Data Structures and Algorithms in Java
+											by Michael T. Goodrich
+                                        </p>
+                                    </div>
+                                    <div class="tile-content">
+                                        <a href="Goodrich.pdf" target="_blank">
+ 											<img src="images/Goodrich.jpg" />
+										</a>
+                                    </div>
+                                    <div class="tile-content">
+                                        <h2>Data Structures and Algoritms</h2>
+                                        <h5>Test your skills with Linked List and trees</h5>
+                                        <p>
+                                        	Data Structure and Algorithm Analysis in C
+                                        	by Mark Allen Weiss
+                                        </p>
+                                    </div>
+                                    <div class="tile-content">
+                                        <a href="Weiss.chm" target="_blank">
+ 											<img src="images/Weiss.jpg" />
+										</a>
+                                    </div>
+                                </div>
+
+                                <div class="tile double bg-color-green" data-role="tile-slider" data-param-direction="down" data-param-period="3000">
+                                    <div class="tile-content">
+                                        <h2>Fundamentals of Database Systems</h2>
+                                        <h5>How much you know about Normal Forms?</h5>
+                                        <p>
+                                        	Reference Book:
+                                        	DataBase Management Systems
+                                        	by Elmasri Navathe
+                                        </p>
+                                    </div>
+                                    <div class="tile-content">
+                                        <img src="images/Navathe.jpg" alt="">
+                                    </div>
+                                    <div class="tile-content">
+                                        <h2>Database management Systems</h2>
+                                        <h5>Here is a faster and simplified Approach</h5>
+                                        <p>
+                                        	DataBase Management Systems
+                                        	by Raghurama Krishnan
+                                        </p>
+                                    </div>
+                                    <div class="tile-content">
+                                        <a href="Krishna.pdf" target="_blank">
+ 											<img src="images/Krishna.jpg" />
+										</a>
+                                    </div>
+                                </div>
+
+                                <div class="tile double bg-color-yellow" data-role="tile-slider" data-param-direction="right" data-param-period="3000" data-param-duration="3000">
+                                    <div class="tile-content">
+                                        <h2>Design and Analysis of Algorithms</h2>
+                                        <h5>Do you know those important algorithms?</h5>
+                                        <p>
+                                        	Reference Book:
+                                        	Introduction to
+                                        	Design and Analysis of Algorithms
+                                        	by Anany Levitin
+                                        </p>
+                                    </div>
+                                    <div class="tile-content">
+                                        <a href="Levitin.pdf" target="_blank">
+ 											<img src="images/Levitin.jpg" />
+										</a>
+                                    </div>    
+                                    <div class="tile-content">
+                                        <h2>Design and Analysis of Algorithms</h2>
+                                        <h5>Different Approach.Complete Coverage</h5>
+                                        <p>
+                                        	Introduction to Algorithms
+                                        	by Thomas H Cormen
+                                        </p>
+                                    </div>
+                                    <div class="tile-content">
+                                        <a href="Cormen.pdf" target="_blank">
+ 											<img src="images/Cormen.jpg" />
+										</a>
+                                    </div>
+                                 </div>
+                                </div>
+                            </div>
+							<div class="grid">
+                                <div class="clearfix">
+                            		<div class="tile double image-slider" data-role="tile-slider">
+                                    <div class="tile-content">
+                                        <img src="images/1.jpg" alt="">
+                                    </div>
+                                    <div class="tile-content">
+                                        <img src="images/2.jpg" alt="">
+                                    </div>
+                                    <div class="tile-content">
+                                        <img src="images/3.jpg" alt="">
+                                    </div>
+                                    <div class="tile-content">
+                                        <img src="images/4.jpg" alt="">
+                                    </div>
+                                    <div class="tile-content">
+                                        <img src="images/5.jpg" alt="">
+                                    </div>
+                                	</div>
+
+                                <div class="tile double image-slider" data-role="tile-slider" data-param-direction="left" data-param-period="3000">
+                                    <div class="tile-content">
+                                        <img src="images/1.jpg" alt="">
+                                    </div>
+                                    <div class="tile-content">
+                                        <img src="images/2.jpg" alt="">
+                                    </div>
+                                    <div class="tile-content">
+                                        <img src="images/3.jpg" alt="">
+                                    </div>
+                                    <div class="tile-content">
+                                        <img src="images/4.jpg" alt="">
+                                    </div>
+                                    <div class="tile-content">
+                                        <img src="images/5.jpg" alt="">
+                                    </div>
+                                </div>
+
+                                <div class="tile double image-slider" data-role="tile-slider" data-param-direction="down" data-param-period="3000">
+                                    <div class="tile-content">
+                                        <img src="images/1.jpg" alt="">
+                                    </div>
+                                    <div class="tile-content">
+                                        <img src="images/2.jpg" alt="">
+                                    </div>
+                                    <div class="tile-content">
+                                        <img src="images/3.jpg" alt="">
+                                    </div>
+                                    <div class="tile-content">
+                                        <img src="images/4.jpg" alt="">
+                                    </div>
+                                    <div class="tile-content">
+                                        <img src="images/5.jpg" alt="">
+                                    </div>
+                                </div>
+
+                                <div class="tile double image-slider" data-role="tile-slider" data-param-direction="right" data-param-period="3000" data-param-duration="3000">
+                                    <div class="tile-content">
+                                        <img src="images/1.jpg" alt="">
+                                    </div>
+                                    <div class="tile-content">
+                                        <img src="images/2.jpg" alt="">
+                                    </div>
+                                    <div class="tile-content">
+                                        <img src="images/3.jpg" alt="">
+                                    </div>
+                                    <div class="tile-content">
+                                        <img src="images/4.jpg" alt="">
+                                    </div>
+                                    <div class="tile-content">
+                                        <img src="images/5.jpg" alt="">
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                                        
+                      
+                        </div>
+                    </div>
+
+                
+                <br />
+                <div class="grid">
+                    <div class="row">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="page">
+        <div class="nav-bar">
+            <div class="nav-bar-inner padding10">
+                <span class="element">
+                    2013-2014, PESOS &copy; by <a class="fg-color-white" href="http://www.pes.edu">Ashray and Muralidhar</a>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <a href='http://hit.ua/?x=19154' target='_blank'>
+    <script language="javascript" type="text/javascript"><!--
+    Cd=document;Cr="&"+Math.random();Cp="&s=1";
+    Cd.cookie="b=b";if(Cd.cookie)Cp+="&c=1";
+    Cp+="&t="+(new Date()).getTimezoneOffset();
+    if(self!=top)Cp+="&f=1";
+    //--></script>
+    <script language="javascript1.1" type="text/javascript"><!--
+    if(navigator.javaEnabled())Cp+="&j=1";
+    //--></script>
+    <script language="javascript1.2" type="text/javascript"><!--
+    if(typeof(screen)!='undefined')Cp+="&w="+screen.width+"&h="+
+            screen.height+"&d="+(screen.colorDepth?screen.colorDepth:screen.pixelDepth);
+    //--></script>
+    <script language="javascript" type="text/javascript"><!--
+    Cd.write("<img src='http://c.hit.ua/hit?i=19154&g=0&x=2"+Cp+Cr+
+            "&r="+escape(Cd.referrer)+"&u="+escape(window.location.href)+
+            "' border='0' wi"+"dth='1' he"+"ight='1'/>");
+    //--></script>
+    <noscript>
+        <img src='http://c.hit.ua/hit?i=19154&amp;g=0&amp;x=2' border='0'/>
+    </noscript></a>
+<!-- / hit.ua -->
+
+    <script type="text/javascript" src="metroui/public/js/assets/github.info.js"></script>
+    <script type="text/javascript" src="metroui/public/js/assets/google-analytics.js"></script>
+    <script type="text/javascript" src="metroui/public/js/google-code-prettify/prettify.js"></script>
+    <script src="metroui/public/js/sharrre/jquery.sharrre-1.3.4.min.js"></script>
+
+    <script>
+        $('#shareme').sharrre({
+            share: {
+                googlePlus: true
+                ,facebook: true
+                ,twitter: true
+                ,delicious: true
+            },
+            urlCurl: "metroui/public/js/sharrre/sharrre.php",
+            buttons: {
+                googlePlus: {size: 'tall'},
+                facebook: {layout: 'box_count'},
+                twitter: {count: 'vertical'},
+                delicious: {size: 'tall'}
+            },
+            hover: function(api, options){
+                $(api.element).find('.buttons').show();
+            }
+        });
+    </script>
+
+    </body>
+</html>
+
+</div>
+</body>
+</html>
+

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<style>
+	 .carousel .item {
+    width: 100%; /*slider width*/
+    max-height: 600px; /*slider height*/
+}
+.carousel .item img {
+    width: 100%; /*img width*/
+}
+/*add some makeup*/
+.carousel .carousel-control {
+    background: none;
+    border: none;
+    top: 50%;
+}
+/*full width container*/
+@media (max-width: 767px) {
+    .block {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+}
+	</style>
+	<meta charset="utf-8">
+	<title>Training Portal</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<!-- Le styles -->
+	<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+	<link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+	<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<meta charset="utf-8">
+    <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="description" content="Metro UI CSS">
+    <meta name="author" content="Sergey Pimenov">
+    <meta name="keywords" content="windows 8, modern style, Metro UI, style, modern, css, framework">
+
+    <link href="metroui/public/css/modern.css" rel="stylesheet">
+    <link href="metroui/public/css/modern-responsive.css" rel="stylesheet">
+    <link href="metroui/public/css/site.css" rel="stylesheet" type="text/css">
+    <link href="metroui/public/js/google-code-prettify/prettify.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" src="metroui/public/js/assets/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="metroui/public/js/assets/jquery.mousewheel.min.js"></script>
+    <script type="text/javascript" src="metroui/public/js/assets/moment.js"></script>
+    <script type="text/javascript" src="metroui/public/js/assets/moment_langs.js"></script>
+
+    <script type="text/javascript" src="metroui/public/js/modern/dropdown.js"></script>
+    <script type="text/javascript" src="metroui/public/js/modern/accordion.js"></script>
+    <script type="text/javascript" src="metroui/public/js/modern/buttonset.js"></script>
+    <script type="text/javascript" src="metroui/public/js/modern/carousel.js"></script>
+    <script type="text/javascript" src="metroui/public/js/modern/input-control.js"></script>
+    <script type="text/javascript" src="metroui/public/js/modern/pagecontrol.js"></script>
+    <script type="text/javascript" src="metroui/public/js/modern/rating.js"></script>
+    <script type="text/javascript" src="metroui/public/js/modern/slider.js"></script>
+    <script type="text/javascript" src="metroui/public/js/modern/tile-slider.js"></script>
+    <script type="text/javascript" src="metroui/public/js/modern/tile-drag.js"></script>
+    <script type="text/javascript" src="metroui/public/js/modern/calendar.js"></script>
+
+
+	<script type="text/javascript">window.history.forward();function noBack(){window.history.forward();}</script>
+	
+</head>
+<body class = "metrouicss"onload="noBack();prettyprint();" onpageshow="if (event.persisted) noBack();" onunload="">
+<div id="header-text">
+  <h1><strong id="top-title" align="center">Training Portal</strong></h1>
+    <p id="slogan" align="left">Be a quick Learner</p>
+</div>  
+    <div class="navbar navbar-inverse">
+		<div class="navbar-inner">
+			<div class="container">
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</a>
+				<div class="nav-collapse" id=menu>
+					<ul class="nav">
+                                                
+						<li><a href="member_view.html">Home</a></li>
+                        <li><a href="readnotes.php">Read</a></li>
+                        <li><a href="add_notes.php">Add Notes</a></li>
+						<li class ="active"><a href="contactus.html">contact us</a></li>
+   
+                                        </ul>
+					<ul class="nav pull-right">
+						<p><a href="logout.php" class="btn btn-success">log out</a></p> 
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div>
+		</div>
+	</div>
+<div class="page" id="page-index">
+    <div class="page-region">
+        <div class="page-region-content">
+            <div class="grid">
+                <div class="row">
+                    <div class="span4 bg-color-yellow">
+                        <h2 class="fg-color-white">&nbsp;Ashray</h2>
+                    </div>
+
+                    <div class="span4 bg-color-red">
+                        <h2 class="fg-color-white">&nbsp;Muralidhar</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="row">
+                    <div class="span4">
+                        <div class="image-container bg-color-lighten" style="width: 100%">
+                            <div style="height: 200px; overflow: hidden"><img src="images/ashray.JPG" /></div>
+                            <div class="overlay">
+                                <div class="padding10 fg-color-grayDark tertiary-text">Info Science - java,php,html,css,python email:ashray1993@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="span4">
+                        <div class="image-container bg-color-lighten" style="width: 100%">
+                            <div style="height: 200px; overflow: hidden"><img src="images/murali.jpg" /></div>
+                            <div class="overlay">
+                                <div class="padding10 fg-color-grayDark tertiary-text">Telecom - php,java,python email:muralidhar161@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="page">
+<h3>Send your Valuable Suggetions</h3>
+<form method="POST" action='contactus.php'>
+<textarea class="FormElement" name="contact" id="term" style="width: 500px; height: 50px;"></textarea>
+<div>
+<button type="submit" class="btn btn-success">post seggetions</button>
+</div>
+</form>
+</div>
+ 
+	<a href='http://hit.ua/?x=19154' target='_blank'>
+    <script language="javascript" type="text/javascript"><!--
+    Cd=document;Cr="&"+Math.random();Cp="&s=1";
+    Cd.cookie="b=b";if(Cd.cookie)Cp+="&c=1";
+    Cp+="&t="+(new Date()).getTimezoneOffset();
+    if(self!=top)Cp+="&f=1";
+    //--></script>
+    <script language="javascript1.1" type="text/javascript"><!--
+    if(navigator.javaEnabled())Cp+="&j=1";
+    //--></script>
+    <script language="javascript1.2" type="text/javascript"><!--
+    if(typeof(screen)!='undefined')Cp+="&w="+screen.width+"&h="+
+            screen.height+"&d="+(screen.colorDepth?screen.colorDepth:screen.pixelDepth);
+    //--></script>
+    <script language="javascript" type="text/javascript"><!--
+    Cd.write("<img src='http://c.hit.ua/hit?i=19154&g=0&x=2"+Cp+Cr+
+            "&r="+escape(Cd.referrer)+"&u="+escape(window.location.href)+
+            "' border='0' wi"+"dth='1' he"+"ight='1'/>");
+    //--></script>
+    <noscript>
+        <img src='http://c.hit.ua/hit?i=19154&amp;g=0&amp;x=2' border='0'/>
+    </noscript></a>
+<!-- / hit.ua -->
+
+    <script type="text/javascript" src="js/assets/github.info.js"></script>
+    <script type="text/javascript" src="js/assets/google-analytics.js"></script>
+    <script type="text/javascript" src="js/google-code-prettify/prettify.js"></script>
+    <script src="js/sharrre/jquery.sharrre-1.3.4.min.js"></script>
+
+    <script>
+        $('#shareme').sharrre({
+            share: {
+                googlePlus: true
+                ,facebook: true
+                ,twitter: true
+                ,delicious: true
+            },
+            urlCurl: "js/sharrre/sharrre.php",
+            buttons: {
+                googlePlus: {size: 'tall'},
+                facebook: {layout: 'box_count'},
+                twitter: {count: 'vertical'},
+                delicious: {size: 'tall'}
+            },
+            hover: function(api, options){
+                $(api.element).find('.buttons').show();
+            }
+        });
+    </script>
+
+    </body>
+</html>
